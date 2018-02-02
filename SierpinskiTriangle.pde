@@ -24,7 +24,7 @@ public void mousePressed()
 {
 	if(triangleSize>15)
 	{
-		triangleSize = triangleSize - 10;
+		triangleSize = triangleSize/2;
 	}
 	background(0);
 	sierpinski(50,350,305);
